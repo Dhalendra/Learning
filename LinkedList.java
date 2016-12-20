@@ -1,3 +1,5 @@
+package dc.learn.Stack;
+
 /***************************************************************************
  * A Linked List class with a private static inner Node class.
  *
