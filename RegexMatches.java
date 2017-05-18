@@ -35,9 +35,10 @@ public class RegexMatches {
 
 	      while(m.find()) {
 	         count++;
-	         System.out.println("Match number "+count);
 	         System.out.println("start(): "+m.start());
 	         System.out.println("end(): "+m.end());
 	      }
+	      System.out.println("Match number "+count);
+	         
 	   }
 }

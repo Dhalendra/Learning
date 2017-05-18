@@ -8,7 +8,7 @@ package dc.learn.Testpack;
 	      try {
 	         FileInputStream fileIn = new FileInputStream("input.txt");
 	         ObjectInputStream in = new ObjectInputStream(fileIn);
-	         e = (Test) in.readObject();
+	         e = (Test) in.readObject(); // we need object input steam cause we are reading objects here 
 	         in.close();
 	         fileIn.close();
 	      }catch(IOException i) {
