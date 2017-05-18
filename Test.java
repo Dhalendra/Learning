@@ -11,7 +11,7 @@ public class Test implements Serializable {
 	
 	public String name;
 	   public String address;
-	   public transient int SSN;
+	   public transient int SSN; // it will not be serialized 
 	   public int number;
 	   
 	   public void mailCheck() {
@@ -29,6 +29,7 @@ public class Test implements Serializable {
 	            System.out.println(a+b);
 	            System.out.println("value of n" + n);
 	        }
+	        sc.close();
 
 	}
 

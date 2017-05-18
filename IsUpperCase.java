@@ -8,6 +8,7 @@ public class IsUpperCase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str= "NONMH";
+		//StringBuffer stb = new StringBuffer(str);
 		//char[] c = str.toCharArray();
 		boolean isUpper = false;
 		for(Character c: str.toCharArray()){
